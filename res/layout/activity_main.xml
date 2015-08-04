@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <com.ho.solvemycircuit.DrawingArea2
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.05" />
+   <!-- <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/Resistance"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/Resistance"
+        android:onClick="onAddR"/>
+    <Button
+        android:id="@+id/Capacitor"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/Capacitor" 
+        android:onClick="onAddC"
+        />
+    <Button
+        android:id="@+id/Inductor"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/Inductor" 
+        android:onClick="onAddL"
+        />
+    
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/New_Loop"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/New_Loop"
+        android:onClick="onAddLoop"/>
+    
+    <Button
+        android:id="@+id/DC_Power_Source"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/DC_Power_Source" 
+        android:onClick="onAddV"
+        />
+
+    <Button
+        android:id="@+id/AC_Power_Source"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/AC_Power_Source" 
+ 		android:onClick="onAddVA"
+        />
+     <Button
+        android:id="@+id/Solve"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/Solve" 
+        android:onClick="onSolve"
+        />
+    
+    </LinearLayout>
+    
+-->
+    
+</LinearLayout>

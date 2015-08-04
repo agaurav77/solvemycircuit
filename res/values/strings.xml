@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solve My Circuit</string>
+    <string name="help">Help</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="coordinates">Showing the coordinates!</string>
+	<string name="New_Loop">New Loop</string>
+	<string name="Resistance">Resistance</string>
+	<string name="Capacitor">Capacitor</string>
+	<string name="Inductor">Inductor</string>
+	<string name="DC_Power_Source">DC Power Source</string>
+	<string name="AC_Power_Source">AC Power Source</string>
+	<string name="Solve">Solve</string>
+	<string name="Clear">Reset</string>
+	<string name="about">About</string>
+</resources>

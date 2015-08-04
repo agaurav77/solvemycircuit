@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/help"/>
+
+<item
+        android:id="@+id/New_Loop"
+        android:title="@string/New_Loop"
+        android:showAsAction="never"/>
+<item
+        android:id="@+id/DC_Power_Source"
+        android:title="@string/DC_Power_Source"
+        android:showAsAction="never"/>
+<item
+        android:id="@+id/AC_Power_Source"
+        android:title="@string/AC_Power_Source"
+        android:showAsAction="never"/>
+<item
+        android:id="@+id/Resistance"
+        android:title="@string/Resistance"
+        android:showAsAction="never"/>
+<item
+        android:id="@+id/Inductor"
+        android:title="@string/Inductor"
+        android:showAsAction="never"/>
+<item
+        android:id="@+id/Capacitor"
+        android:title="@string/Capacitor"
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/Solve"
+        android:title="@string/Solve"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/Clear"
+        android:title="@string/Clear"
+        android:showAsAction="never"/>
+    <item android:id="@+id/about" android:title="@string/about" android:showAsAction="never"></item>
+</menu>
