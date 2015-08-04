@@ -1,0 +1,22 @@
+Solve My Circuit
+----------------
+
+Circuit solving app with basic features of DC and AC 1-frequency calculations.
+"Solve circuits the simple way. Draw them and tap Solve to get them solved."
+This application uses Kirchoff's Voltage Law and common concepts of mesh analysis to solve circuits. Just draw the circuit, and for each loop, keep adding in whatever is needed (R,L,C,V) via the blue dots until they meet and become black. No blue dots mean all loops are complete.
+
+Features in version 1.0 -
+1. Draw-it-yourself approach to make the circuit.
+2. DC calculations for complex-interlinked loops.
+3. AC calculations for single frequency circuits, which can be easily solved via phasor interpretation.
+4. AC results shown in A < B format where A is the magnitude of phasor and B is angle of phasor with reference.
+5. Components available - inductor, capacitor, resistor, DC source, AC source.
+6. Reset circuit option.
+
+**Advice for use
+New connecting wire can be drawn only from where you ended the last connection.
+
+
+More in the next version! Please do mail me and tell me what changes do you want in this version, or upcoming ones.
+
+UPDATE: The application might not work properly with low-resolution Android devices. The sensitivity is suited to high-res devices. I regret the inconvenience caused. I'll be changing those in the next version.
